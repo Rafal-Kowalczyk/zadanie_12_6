@@ -3,7 +3,7 @@
 $fonts: 'Roboto Condensed', sans-serif;
 $font-white: #fff;
 $font-weight: 400;
-$background-color: #55ACEE;
+$background-color: #CBD1CF;
 
 body {
 	font-family: $fonts;
@@ -11,38 +11,36 @@ body {
 	text-align: center;
 	background-color: $background-color;
 }
-header h1 {
-	margin: 100px 0;
-	font-size: 56px;
-	color: $font-white;
-	font-weight: $font-weight;
+h1 {
+	margin: 20px 0;
+	padding: 20px 0;
+	font-size: 50px;
 }
-.box h2, h3 {
-	margin: 40px 0;
-	font-size: 28px;
-	color: $font-white;
-	font-weight: $font-weight;
-
+.btn {
+	background-color: #E2ED11;
+	font-size: 24px;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 0 50px;
 }
-.trigger {
-	font-size: 16px;
-	margin: 50px 0 30px 0;
-	padding: 5px 80px;
-	background-color: $background-color;
-	color: $font-white;
+input {
+	font-size: 24px;
 	border: solid 1px;
-	border-radius: 3px;
+	margin: 20px;
+	padding: 0;
+	text-align: center;
+	background-color: #C5E0A2;
 }
-.tweet {
-
-	font-size: 16px;
-	border: solid 1px #fff;
-	padding: 7px 82px;
-	color: $font-white;
-	border-radius: 3px;
-
-	.fa-twitter {
-		padding: 15px;
-	}
+h2 {
+	margin: 10px 0;
+	padding:20px 0;
+	font-size: 40px;
 }
-
+#countries {
+	list-style-type: none
+}	
+	
+li {
+	text-align: left;
+	font-size: 22px;
+}
